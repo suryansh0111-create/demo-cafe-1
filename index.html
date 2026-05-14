@@ -304,7 +304,7 @@
                 <motion.div {...pageTransition} key="menu_page" className="pt-40 px-12 pb-40">
                     <div className="max-w-6xl mx-auto text-center mb-20">
                         <span className="label-caps text-cafe-oak block mb-6">Seasonal Edition 2026</span>
-                        <h1 className="text-7xl md:text-9xl bold-heading uppercase leading-none">Menu</h1>
+                        <h1 className="text-7xl md:text-8xl bold-heading uppercase leading-none">Menu</h1>
                     </div>
 
                     <div className="max-w-7xl mx-auto">
@@ -367,10 +367,10 @@
                                 "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=1200", // Pizza
                                 "https://images.unsplash.com/photo-1576107232684-1279f390859f?auto=format&fit=crop&q=80&w=1200", // Smoothies/Drinks
                                 "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=1200", // Interior
-                                "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=1200", // Burger
-                                "https://images.unsplash.com/photo-1593504049359-74330189a355?auto=format&fit=crop&q=80&w=1200", // Personal Pizza
-                                "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&q=80&w=1200", // Cake/Dessert
-                                "https://images.unsplash.com/photo-1567620905732-2d1ec7bb7445?auto=format&fit=crop&q=80&w=1200"  // Pancakes/Fries detail
+                                "https://images.unsplash.com/photo-1512151819128-1459a1198b20?auto=format&fit=crop&q=80&w=1200", // Burger (Reliable ID)
+                                "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=1200", // Salad
+                                "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=1200", // Dessert (Reliable ID)
+                                "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&q=80&w=1200"  // Breakfast
                             ].map((url, i) => (
                                 <motion.div 
                                     key={i}
@@ -399,11 +399,30 @@
                             <div className="space-y-10 font-medium text-xl leading-relaxed text-cafe-charcoal/80">
                                 <p className="text-4xl font-serif italic text-cafe-charcoal leading-tight">Founded in 2024, Lumière was born from a singular obsession: the architecture of taste.</p>
                                 <p>We believe that the space you inhabit while drinking your morning coffee or sharing a meal is just as important as the quality of the ingredients themselves. Our flagship location was designed with mathematical precision to inspire clarity and pause.</p>
-                                <p>Every detail, from the acoustics of the room to the weight of our ceramic cups, has been considered to create an atmosphere of deliberate presence.</p>
+                                <p>Every detail, from the acoustics of the room to the weight of our ceramic cups, has been considered to create an atmosphere of deliberate presence. This is why our interiors favor raw textures—concrete, oak, and linen—grounding the senses in the physical world.</p>
                             </div>
                             <div className="aspect-[4/5] rounded-[4rem] overflow-hidden shadow-2xl relative group">
                                 <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=1200" className="w-full h-full object-cover transition-transform duration-[3000ms] group-hover:scale-110" alt="Interior" />
                                 <div className="absolute inset-0 bg-cafe-oak/10" />
+                            </div>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-24">
+                            <div className="relative h-[400px] rounded-[3rem] overflow-hidden group">
+                                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=1000" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[2000ms]" alt="Coffee" />
+                                <div className="absolute inset-0 bg-black/20" />
+                                <div className="absolute inset-0 p-10 flex flex-col justify-end">
+                                    <h3 className="text-white text-3xl bold-heading uppercase mb-2">The Roast</h3>
+                                    <p className="text-white/80 text-sm italic">Direct trade from high-altitude estates, roasted in-house daily.</p>
+                                </div>
+                            </div>
+                            <div className="relative h-[400px] rounded-[3rem] overflow-hidden group">
+                                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=1000" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[2000ms]" alt="Food" />
+                                <div className="absolute inset-0 bg-black/20" />
+                                <div className="absolute inset-0 p-10 flex flex-col justify-end">
+                                    <h3 className="text-white text-3xl bold-heading uppercase mb-2">The Kitchen</h3>
+                                    <p className="text-white/80 text-sm italic">Zero-waste philosophy, artisanal techniques, seasonal produce.</p>
+                                </div>
                             </div>
                         </div>
 
@@ -423,7 +442,7 @@
                         </div>
 
                         <div className="relative h-[600px] rounded-[5rem] overflow-hidden mb-24 group">
-                            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=2000" className="w-full h-full object-cover transition-transform duration-[5000ms] group-hover:scale-110" alt="Atmosphere" />
+                            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&q=80&w=2000" className="w-full h-full object-cover transition-transform duration-[5000ms] group-hover:scale-110" alt="Atmosphere" />
                             <div className="absolute inset-0 bg-gradient-to-t from-cafe-charcoal/40 to-transparent" />
                             <div className="absolute bottom-20 left-20">
                                 <h3 className="text-white text-5xl bold-heading uppercase leading-none">The<br />Experience</h3>
